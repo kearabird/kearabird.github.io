@@ -1,0 +1,68 @@
+.jumbotron{
+	display: flex;
+  	align-items: center;
+  	background-size: cover;
+  	font-family: 'Roboto', sans-serif;
+  	background-color:transparent !important;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+
+.jumbotron h1{
+  	color:black;
+    height: 5rem;
+  	text-shadow: 0.25px;
+  	font-family: 'Alex Brush', 'Charcoal';
+  	font-size: 5rem;
+  	font-weight: 400;
+  }
+
+.navigation a{
+  font-family:'Charcoal';
+  color:black;
+  text-decoration:none 
+  height: 3rem;
+  font-size:3rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+}
+
+.table {
+    display:table;
+    width:100%;
+}
+.tr {
+    display:table-row;
+}
+.d1 {
+    display:table-cell;
+    width:800px;
+    color:#fbd1d5;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 34%;
+    top: 80%;
+
+}
+.d1 a {
+    text-decoration: none;
+    color:#fbd1d5;
+    font-size: 1.8rem;
+}
+.d3 {
+    display:table-cell;
+    width:800px;
+    color:#fbd1d5;
+    font-size: 1.8rem; 
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    margin-right: -50%;
+}
